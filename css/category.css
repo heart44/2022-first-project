@@ -1,0 +1,73 @@
+/* <a href="#"><i class="fa-solid fa-bars fa-2x"></i></a> */
+li { list-style: none; padding-bottom: 30px; }
+a { text-decoration: none; }
+.menu {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100vh;
+    max-width: 0;
+    transition: 0.5s ease;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+}
+.menu div ul { 
+    position: fixed;
+    top: 25%;
+    left: 70px;
+    visibility: hidden;
+    text-align: center;
+}
+.bar_check:checked~.menu>div>ul {
+    transition: visibility 0.4s ease;
+    transition-delay: 0.1s;
+    visibility: visible;
+}
+.menu div ul li:first-child > a { 
+    color: red; 
+    pointer-events: none; 
+    font-weight: bold;
+}
+.menu div ul li > a { color: rgb(17, 92, 15); }
+
+.bar_icon {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    padding: 8px 0;
+    left: 5%;
+    user-select: none;
+    width: auto;
+    margin: 0;
+}
+.bar_icon .bar_sticks {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 30px;
+}
+.bar_icon .bar_sticks::before,
+.bar_icon .bar_sticks::after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.bar_icon .bar_sticks::before { top: 5px; }
+.bar_icon .bar_sticks::after { top: -5px; }
+
+.bar_check { display: none; }
+.bar_check:checked~.menu { max-width: 500px; }
+.bar_check:checked~.bar_icon .bar_sticks { background: transparent; }
+.bar_check:checked~.bar_icon .bar_sticks::before { transform: rotate(-45deg); background: #333; }
+.bar_check:checked~.bar_icon .bar_sticks::after { transform: rotate(45deg); background: #333; }
+.bar_check:checked~.bar_icon:not(.steps) .bar_sticks::before,
+.bar_check:checked~.bar_icon:not(.steps) .bar_sticks::after { top: 0; }
+
+

@@ -1,0 +1,70 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+} */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.gal_nm {
+    /* display: flex;
+    justify-content: center; */
+    border: 1px solid white;
+    text-align: center;
+    width: 80%;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: rgb(17, 92, 15);
+    /* margin-top: 10px; */
+}
+
+table {
+    /* display: flex;
+    justify-content: center; */
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 80%;
+}
+
+th {
+    height: 50px; width: 100px;
+    text-align: center;
+}
+
+th, td {
+    /* border: 1px solid#000; */
+    border-bottom: 1px solid rgb(17, 92, 15);
+    color: black;
+}
+
+td { padding: 5px; }
+
+.date {
+    text-align: center;
+}
+
+.h3 { padding: 40px 0; }
+.h3 > h3 { text-align: center; }
+.h3 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+.img img {
+    width: 400px; height: 300px;
+    object-fit: cover;
+}
+.img img:not(:first-child) { margin-left: 30px; }

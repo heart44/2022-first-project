@@ -1,0 +1,111 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    margin: 30px;
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    color: #00491E;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+fieldset {
+    border-radius: 8px;
+    border-color: #00491E;
+    margin-bottom: 10px;
+}
+
+fieldset legend { 
+    text-align: center; 
+    color: #00491E;
+}
+
+form {  
+    margin: 20px;
+}
+
+.data { 
+    padding: 2px;
+    margin-bottom: 5px;
+    border-color: whitesmoke;
+    border-radius: 7px;
+    border-width: 3px;
+    vertical-align: bottom; 
+}
+
+.join_button {
+    padding: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00491E;
+    color: white;
+    font-weight: 565;
+    margin: none;
+    transform: translate(0, 10%);
+}
+
+.join_button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#check_button {
+    padding: 2px;
+    margin-bottom: 9px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #00491E;
+    color: white;
+    margin: none;
+    transform: translate(0, 10%);
+}
+
+#check_button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+small a {
+    color: #00491E;
+    line-height: 33px;
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* check.php */
+
+h3 {
+    color: #00491E;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.check {
+    text-align: center;
+}
+
+.check_nm {
+    padding-bottom: 10px;
+}
+
+.check_btn {
+    padding: 3px;
+    margin-bottom: 9px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #00491E;
+    color: white;
+    margin: none;
+}
