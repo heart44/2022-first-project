@@ -1,0 +1,12 @@
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('1', '1', '그라운드시소성수', '그라운드시소성수(서울).PNG', 'img그라운드시소성수(서울)2.PNG');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('2', '1', '일민미술관', '일민미술관(서울).PNG', 'img일민미술관(서울)2.PNG');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('3', '1', '피크닉', '피크닉(서울).PNG', 'img피크닉(서울)2.png');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('4', '2', '대구미술관', '대구미술관.PNG', 'img대구미술관2.PNG');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('5', '2', '문화예술회관', '문화예술회관(대구).PNG', 'img문화예술회관(대구)2.PNG');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('6', '2', '소헌미술관', '봉산문화회관.PNG', 'img소헌미술관2.png');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('7', '3', '부산현대미술관', '부산미술관.PNG', 'img부산현대2.PNG');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('8', '3', '부산시립미술관', '부산시립미술관.PNG', 'img부산시립2.PNG');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('9', '3', '고은사진미술관', '고은사진미술관.PNG', 'img고은사진미술관2.png');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('10', '4', '제주현대미술관', '제주현대미술관.PNG', 'img현대미술관(제주)2.png');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('11', '4', '제주도립미술관', '제주도립미술관.PNG', 'img도립미술관(제주)2.png');
+INSERT INTO `gallery_t` (`gal_id`, `loc_id`, `gal_nm`, `gal_intro`, `gal_img`) VALUES ('12', '4', '빛의벙커', '빛의벙커(제주).PNG', 'img빛의벙커(제주)2.png');
